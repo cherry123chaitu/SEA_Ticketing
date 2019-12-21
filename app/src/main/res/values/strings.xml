@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">SEA_Ticketing</string>
+    <string name="newLogo">Logo of K L E F</string>
+    <string name="projectName">Complaint filing and ticketing APP</string>
+    <string name="loginDescription">Student Id :</string>
+    <string name="ClgID">Id Number</string>
+    <string name="passwordDescription">Password :</string>
+    <string name="loginButtonText">LOGIN</string>
+    <string name="forgotPassword">Forgot password or don\'t know your password ?</string>
+    <string name="contactDetails">Click To Connect</string>
+    <string name="passwordHint">Password</string>
 </resources>

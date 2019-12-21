@@ -2,10 +2,134 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/Signin"
+    android:id="@+id/signin"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity" >
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/KLef"
+        android:layout_width="match_parent"
+        android:layout_height="184dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="20dp"
+        android:contentDescription="@string/newLogo"
+        app:srcCompat="@drawable/ic_klef" />
+
+    <TextView
+        android:id="@+id/Complaint_Ticket_system"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="@string/projectName"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:id="@+id/Signin_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:layout_weight="0"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/Login"
+            android:layout_width="75dp"
+            android:layout_height="25dp"
+            android:layout_gravity="bottom"
+            android:text="@string/loginDescription"
+            android:textColor=" #000000" />
+
+        <EditText
+            android:id="@+id/StudentId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_margin="0dp"
+            android:ems="10"
+            android:hint="@string/ClgID"
+            android:inputType="number"
+            android:textColor="#000000"
+            android:autofillHints="" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/password_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:layout_weight="0"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/password_disp"
+            android:layout_width="75dp"
+            android:layout_height="25dp"
+            android:layout_gravity="bottom"
+            android:text="@string/passwordDescription"
+            android:textColor=" #000000" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_margin="0dp"
+            android:ems="10"
+            android:hint="@string/passwordHint"
+            android:importantForAutofill="no"
+            android:inputType="textPassword"
+            android:textColor="#000000" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/LOGIN_BUTTON"
+            style="@android:style/Widget.DeviceDefault.Button.Inset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_weight="0"
+            android:backgroundTint="@android:color/holo_red_light"
+            android:backgroundTintMode="src_in"
+            android:foregroundGravity="right"
+            android:gravity="end"
+            android:text="@string/loginButtonText"
+            android:textAlignment="textEnd"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/forgot_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_weight="0"
+            android:text="@string/forgotPassword"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/AdminLink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_weight="0"
+            android:gravity="right"
+            android:text="@string/contactDetails"
+            android:textColor="@color/darkBrown" />
+    </LinearLayout>
 
 </LinearLayout>
