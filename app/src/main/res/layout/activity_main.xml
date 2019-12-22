@@ -28,7 +28,7 @@
         android:gravity="center"
         android:text="@string/projectName"
         android:textColor="#f06e76"
-        android:textSize="24sp" />
+        android:textSize="18sp" />
 
     <LinearLayout
         android:id="@+id/Signin_container"
