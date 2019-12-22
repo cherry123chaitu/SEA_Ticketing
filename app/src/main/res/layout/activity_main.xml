@@ -104,14 +104,14 @@
             style="@android:style/Widget.DeviceDefault.Button.Inset"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="end"
+            android:layout_gravity="center"
             android:layout_weight="0"
             android:backgroundTint="#f06e76"
             android:backgroundTintMode="src_in"
-            android:foregroundGravity="right"
-            android:gravity="end"
+            android:foregroundGravity="center"
             android:text="@string/loginButtonText"
-            android:textAlignment="textEnd"
+            android:textAlignment="center"
+            android:textAllCaps="true"
             android:textColor="@color/black" />
 
         <TextView
