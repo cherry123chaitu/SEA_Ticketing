@@ -15,7 +15,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 private TextView contact;
-
+int count=0;
 private EditText id,password;
 public  Button Login_Button;
 
@@ -55,8 +55,15 @@ public  Button Login_Button;
         startActivity(i);
         }
         else{
-            Toast.makeText(getApplicationContext(),"Wrong id or password please verify",Toast.LENGTH_SHORT).show();
+            count=count+1;
+            if(count==3){
 
+            Intent emailIntent= new Intent();
+            emailIntent.setAction(Intent.ACTION_SENDTO);
+            emailIntent.setData(Uri.parse("mailto:"+"cherry123chaitu@gmail.com"));
+            startActivity(emailIntent);
+            Login_Button.setEnabled(false);
+        }
         }
     }
 

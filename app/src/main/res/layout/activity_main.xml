@@ -98,10 +98,12 @@
             android:backgroundTint="#f06e76"
             android:backgroundTintMode="src_in"
             android:foregroundGravity="center"
+            android:saveEnabled="true"
             android:text="@string/loginButtonText"
             android:textAlignment="center"
             android:textAllCaps="true"
-            android:textColor="@color/black" />
+            android:textColor="@color/black"
+            android:textSelectHandle="@android:drawable/alert_dark_frame" />
 
         <TextView
             android:id="@+id/forgot_password"
