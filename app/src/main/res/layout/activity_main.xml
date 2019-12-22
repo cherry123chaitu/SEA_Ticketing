@@ -27,7 +27,7 @@
         android:layout_margin="10dp"
         android:gravity="center"
         android:text="@string/projectName"
-        android:textColor="@android:color/holo_red_light"
+        android:textColor="#f06e76"
         android:textSize="24sp" />
 
     <LinearLayout
@@ -106,7 +106,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="end"
             android:layout_weight="0"
-            android:backgroundTint="@android:color/holo_red_light"
+            android:backgroundTint="#f06e76"
             android:backgroundTintMode="src_in"
             android:foregroundGravity="right"
             android:gravity="end"
