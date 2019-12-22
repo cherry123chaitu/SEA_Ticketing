@@ -49,13 +49,13 @@
 
         <EditText
             android:id="@+id/StudentId"
+            style="@style/Widget.AppCompat.AutoCompleteTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="end"
             android:layout_margin="0dp"
             android:autofillHints=""
             android:ems="10"
-            android:hint="@string/ClgID"
             android:inputType="number"
             android:textColor="#000000" />
 
@@ -85,7 +85,6 @@
             android:layout_gravity="end"
             android:layout_margin="0dp"
             android:ems="10"
-            android:hint="@string/passwordHint"
             android:importantForAutofill="no"
             android:inputType="textPassword"
             android:textColor="#000000" />
