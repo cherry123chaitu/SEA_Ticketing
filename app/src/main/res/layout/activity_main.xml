@@ -5,20 +5,31 @@
     android:id="@+id/signin"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#e4e8f0"
+    android:alpha="1.0"
+    android:background="@drawable/background"
+
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <ImageView
-        android:id="@+id/KLef"
-        android:layout_width="match_parent"
-        android:layout_height="184dp"
-        android:layout_gravity="center"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginBottom="50dp"
-        android:contentDescription="@string/newLogo"
-        app:srcCompat="@drawable/ic_officiallogo" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        >
+
+        <ImageView
+            android:id="@+id/KLef"
+            android:layout_width="match_parent"
+            android:layout_height="184dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="50dp"
+            android:alpha="0.9"
+            android:contentDescription="@string/newLogo"
+            app:srcCompat="@drawable/ic_officiallogo" />
+    </LinearLayout>
 
     <LinearLayout
         android:id="@+id/Signin_container"
@@ -33,21 +44,21 @@
             android:id="@+id/Login"
             android:layout_width="75dp"
             android:layout_height="25dp"
-            android:layout_gravity="bottom"
+            android:layout_gravity="center"
             android:text="@string/loginDescription"
             android:textColor=" #000000" />
 
         <EditText
             android:id="@+id/StudentId"
-            style="@style/Widget.AppCompat.AutoCompleteTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="end"
             android:layout_margin="0dp"
             android:autofillHints=""
+            android:background="@drawable/gradienteditext"
             android:ems="10"
             android:inputType="number"
-            android:textColor="#000000" />
+            android:textColor="@color/black" />
 
     </LinearLayout>
 
@@ -64,7 +75,7 @@
             android:id="@+id/password_disp"
             android:layout_width="75dp"
             android:layout_height="25dp"
-            android:layout_gravity="bottom"
+            android:layout_gravity="center"
             android:text="@string/passwordDescription"
             android:textColor=" #000000" />
 
@@ -72,12 +83,13 @@
             android:id="@+id/password"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="end"
+            android:layout_gravity="center"
             android:layout_margin="0dp"
+            android:background="@drawable/gradienteditext"
             android:ems="10"
             android:importantForAutofill="no"
             android:inputType="textPassword"
-            android:textColor="#000000" />
+            android:textColor="@color/black" />
 
     </LinearLayout>
 
@@ -90,12 +102,12 @@
 
         <Button
             android:id="@+id/LOGIN_BUTTON"
-            style="@android:style/Widget.DeviceDefault.Button.Inset"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_weight="0"
-            android:backgroundTint="#f06e76"
+            android:background="@drawable/buttonstyle"
+            android:backgroundTint="@color/newlogocolor"
             android:backgroundTintMode="src_in"
             android:foregroundGravity="center"
             android:saveEnabled="true"
@@ -110,6 +122,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="end"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="5dp"
             android:layout_weight="0"
             android:text="@string/forgotPassword"
             android:textColor="@color/black" />
@@ -119,6 +133,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="end"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
             android:layout_weight="0"
             android:gravity="right"
             android:text="@string/contactDetails"
