@@ -18,7 +18,7 @@
         android:layout_marginRight="10dp"
         android:layout_marginBottom="50dp"
         android:contentDescription="@string/newLogo"
-        app:srcCompat="@drawable/ic_klef" />
+        app:srcCompat="@drawable/ic_officiallogo" />
 
     <LinearLayout
         android:id="@+id/Signin_container"
