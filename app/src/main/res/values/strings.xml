@@ -5,7 +5,7 @@
     <string name="loginDescription">User Id :</string>
     <string name="passwordDescription">Password :</string>
     <string name="loginButtonText">LOGIN</string>
-    <string name="forgotPassword">Forgot password or don\'t know your password ?</string>
+    <string name="forgotPassword">Forgot password</string>
     <string name="contactDetails">Click To Connect</string>
 
 </resources>
