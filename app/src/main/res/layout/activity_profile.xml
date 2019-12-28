@@ -19,7 +19,8 @@
             android:background="?attr/selectableItemBackgroundBorderless"
             android:scaleType="centerInside"
 
-                        app:srcCompat="@drawable/ic_officiallogo" />
+            android:visibility="visible"
+            app:srcCompat="@drawable/ic_officiallogo" />
 
         <de.hdodenhof.circleimageview.CircleImageView
             xmlns:app="http://schemas.android.com/apk/res-auto"
