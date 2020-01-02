@@ -9,7 +9,7 @@
     </style>
     <style name="AppThemeDark" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">#d6eb38</item>
+        <item name="colorPrimary">#f4f43c</item>
         <item name="colorPrimaryDark">@color/yello</item>
         <item name="colorAccent">@color/lime_yellow</item>
     </style>
