@@ -17,7 +17,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:layout_marginBottom="20dp"
+        android:layout_marginBottom="30dp"
         android:clipToPadding="false"
         android:gravity="center"
         android:orientation="horizontal">
@@ -63,8 +63,9 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:padding="5dp"
-                    android:text="Check your bank activities"
-                    android:textColor="@android:color/darker_gray" />
+                    android:text="All your tickets filed will be shown in this page."
+                    android:textColor="@color/black"
+                    android:textSize="10dp" />
 
             </LinearLayout>
         </androidx.cardview.widget.CardView>
@@ -109,8 +110,9 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:padding="5dp"
-                    android:text="Check your bank activities"
-                    android:textColor="@android:color/darker_gray" />
+                    android:text="Any new complaints can be registerd here for which u will get a ticket id."
+                    android:textColor="@color/black"
+                    android:textSize="10dp" />
 
             </LinearLayout>
         </androidx.cardview.widget.CardView>
@@ -132,7 +134,8 @@
             android:layout_width="160dp"
             android:layout_height="190dp"
             android:layout_margin="10dp"
-            android:foreground="?android:attr/selectableItemBackground">
+            android:foreground="?android:attr/selectableItemBackground"
+            android:onClick="Click">
 
             <LinearLayout
                 android:id="@+id/profile_container"
@@ -146,7 +149,6 @@
                     android:layout_width="80dp"
                     android:layout_height="80dp"
                     android:background="@drawable/cerclebackgroundgreen"
-                    android:onClick="Click"
                     android:padding="10dp"
                     android:src="@drawable/ic_profile2" />
 
@@ -170,8 +172,9 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:padding="5dp"
-                    android:text="Check your bank activities"
-                    android:textColor="@android:color/darker_gray" />
+                    android:text="Personal Info"
+                    android:textColor="@color/black"
+                    android:textSize="10dp" />
 
             </LinearLayout>
         </androidx.cardview.widget.CardView>
@@ -217,7 +220,8 @@
                     android:gravity="center"
                     android:padding="5dp"
                     android:text="Check your bank activities"
-                    android:textColor="@android:color/darker_gray" />
+                    android:textColor="@color/black"
+                    android:textSize="10dp" />
 
             </LinearLayout>
         </androidx.cardview.widget.CardView>

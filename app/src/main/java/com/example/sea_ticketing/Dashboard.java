@@ -2,7 +2,7 @@ package com.example.sea_ticketing;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
-
+import android.view.Menu;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -24,6 +24,12 @@ public class Dashboard extends AppCompatActivity {
         Intent i =new Intent(Dashboard.this,Profile.class);
         startActivity(i);
         }
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+
+        getMenuInflater().inflate(R.menu.notification, menu);
+        return true;
+    }
     }
 
 
