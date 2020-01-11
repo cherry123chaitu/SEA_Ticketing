@@ -24,6 +24,10 @@ public class Dashboard extends AppCompatActivity {
         Intent i =new Intent(Dashboard.this,Profile.class);
         startActivity(i);
         }
+        public void History(View view){
+            Intent i =new Intent(Dashboard.this,History.class);
+            startActivity(i);
+        }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
 

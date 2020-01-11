@@ -19,4 +19,5 @@
     <color name="black_overlay">#66000000</color>
     <color name="lime_yellow">#ccff00</color>
     <color name="backhroundappcolor">#f4f487</color>
+    <color name="appbarcolorYellow">#f4f43c</color>
 </resources>

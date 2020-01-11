@@ -124,13 +124,14 @@
         android:orientation="horizontal">
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/bankcardId"
+            android:id="@+id/History"
             android:layout_width="160dp"
             android:layout_height="190dp"
             android:layout_margin="10dp"
-            android:focusable="true"
             android:clickable="true"
-            android:foreground="?android:attr/selectableItemBackground">
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:onClick="History">
 
             <LinearLayout
                 android:id="@+id/History_container"

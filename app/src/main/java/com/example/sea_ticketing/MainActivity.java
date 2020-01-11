@@ -49,7 +49,7 @@ public  Button Login_Button;
         String uid,pass;
         uid = id.getText().toString();
         pass= password.getText().toString();
-        if(uid.equals("170030")&& (pass.equals("Chaitanya"))){
+        if(uid.equals("1")&& (pass.equals("12"))){
             Toast.makeText(getApplicationContext(),"Welcome 170030",Toast.LENGTH_SHORT).show();
         Intent i= new Intent(MainActivity.this,Dashboard.class);
         startActivity(i);

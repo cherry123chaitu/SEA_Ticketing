@@ -5,8 +5,8 @@
     <string name="loginDescription">User Id :</string>
     <string name="passwordDescription">Password :</string>
     <string name="loginButtonText">LOGIN</string>
-    <string name="forgotPassword">Forgot password</string>
-    <string name="contactDetails">Click To Connect</string>
+    <string name="forgotPassword">Forgot password ?</string>
+    <string name="contactDetails">Contact</string>
     <string name="dashboardHistory">Previous Tickets</string>
     <string name="dashboardNewTicket">File A Ticket</string>
     <string name="dashboardProfile">Profile</string>
