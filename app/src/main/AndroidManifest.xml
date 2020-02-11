@@ -12,18 +12,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <activity android:name=".History"
-            android:theme="@style/AppThemeDark"
-            />
-
-
-        <activity android:name=".Profile"
-
-            />
+        <activity android:name=".new_ticket.ticket_filing"></activity>
+        <activity
+            android:name=".History"
+            android:theme="@style/AppThemeDark" />
+        <activity android:name=".Profile" />
         <activity android:name=".Dashboard" />
-        <activity android:name=".MainActivity"
-          android:theme="@style/AppThemeLogin"
-            >
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppThemeLogin">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
