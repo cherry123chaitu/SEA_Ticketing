@@ -55,8 +55,7 @@ public  Button Login_Button;
             Toast.makeText(getApplicationContext(),"Welcome 170030",Toast.LENGTH_SHORT).show();
         Intent i= new Intent(MainActivity.this,Dashboard.class);
         startActivity(i);
-            SharedPreferences sp = getSharedPreferences("login",MODE_PRIVATE);
-            sp.edit().putBoolean("logged",true).apply();
+        this.finish();
 
         }
         else{

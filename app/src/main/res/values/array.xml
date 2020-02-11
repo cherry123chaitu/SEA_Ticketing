@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Branch_names">
+        <item>CSE</item>
+        <item>R and D</item>
+        <item>Fed</item>
+    </string-array>
+
+    <string-array name="Floor">
+        <item>1st</item>
+        <item>2nd</item>
+        <item>3rd</item>
+        <item>4th</item>
+    </string-array>
+</resources>
+
