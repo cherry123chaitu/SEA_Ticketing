@@ -19,7 +19,7 @@
 
 
         <ImageView
-            android:id="@+id/imageView5"
+            android:id="@+id/ProfileImage"
             android:layout_width="150dp"
             android:layout_height="150dp"
             app:srcCompat="@drawable/chaitanya" />
@@ -186,6 +186,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
+                android:onClick="newticket"
                 android:orientation="vertical">
 
                 <ImageView
@@ -288,9 +289,10 @@
             android:id="@+id/Forum_card"
             android:layout_width="160dp"
             android:layout_height="190dp"
-            android:clickable="true"
             android:layout_margin="10dp"
-            android:foreground="?android:attr/selectableItemBackground">
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:onClick="Forumpage">
 
             <LinearLayout
                 android:id="@+id/forum_container"

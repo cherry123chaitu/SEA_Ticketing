@@ -8,6 +8,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
+
+import com.example.sea_ticketing.new_ticket.ticket_filing;
 
 public class Dashboard extends AppCompatActivity {
     TextView profiletext;
@@ -28,6 +31,13 @@ public class Dashboard extends AppCompatActivity {
             Intent i =new Intent(Dashboard.this,History.class);
             startActivity(i);
         }
+        public void newticket(View view){
+        Intent i =new Intent(Dashboard.this, ticket_filing.class);
+        startActivity(i);
+    }
+    public void Forumpage(View view){
+        Toast.makeText(getApplicationContext(),"Still being developed",Toast.LENGTH_SHORT).show();
+    }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
 

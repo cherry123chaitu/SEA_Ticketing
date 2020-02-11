@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
@@ -18,6 +19,7 @@ private TextView contact;
 int count=0;
 private EditText id,password;
 public  Button Login_Button;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,6 +55,9 @@ public  Button Login_Button;
             Toast.makeText(getApplicationContext(),"Welcome 170030",Toast.LENGTH_SHORT).show();
         Intent i= new Intent(MainActivity.this,Dashboard.class);
         startActivity(i);
+            SharedPreferences sp = getSharedPreferences("login",MODE_PRIVATE);
+            sp.edit().putBoolean("logged",true).apply();
+
         }
         else{
             count=count+1;
