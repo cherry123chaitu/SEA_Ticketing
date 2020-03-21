@@ -1,16 +1,13 @@
 package com.example.sea_ticketing;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.content.ContextCompat;
 
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -64,7 +61,7 @@ public  Button Login_Button;
 
             Intent emailIntent= new Intent();
             emailIntent.setAction(Intent.ACTION_SENDTO);
-            emailIntent.setData(Uri.parse("mailto:"+"cherry123chaitu@gmail.com"));
+            emailIntent.setData(Uri.parse("mailto:"+"admin@kluniversity.in"));
             startActivity(emailIntent);
             Login_Button.setEnabled(false);
         }
