@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.sea_ticketing.forum.Forum;
 import com.example.sea_ticketing.new_ticket.ticket_filing;
 
 public class Dashboard extends AppCompatActivity {
@@ -35,7 +36,8 @@ public class Dashboard extends AppCompatActivity {
         startActivity(i);
     }
     public void Forumpage(View view){
-        Toast.makeText(getApplicationContext(),"Still being developed",Toast.LENGTH_SHORT).show();
+       Intent intent=new Intent(Dashboard.this, Forum.class);
+        startActivity(intent);
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

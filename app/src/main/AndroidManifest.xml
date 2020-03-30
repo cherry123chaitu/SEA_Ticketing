@@ -12,7 +12,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <activity android:name=".new_ticket.ticket_filing"></activity>
+        <activity android:name=".forum.Forum">
+        </activity>
+        <activity android:name=".new_ticket.ticket_filing" />
         <activity
             android:name=".History"
             android:theme="@style/AppThemeDark" />

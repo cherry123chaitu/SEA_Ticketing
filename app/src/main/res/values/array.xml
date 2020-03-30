@@ -28,5 +28,9 @@
         <item>13</item>
         <item>14</item>
     </string-array>
+    <string-array name="items">
+        <item>Fan</item>
+        <item>Projector</item>
+    </string-array>
 </resources>
 
